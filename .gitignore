@@ -60,9 +60,9 @@ app.*.map.json
 # Note: Most teams COMMIT generated files (*.g.dart, *.config.dart) so teammates
 # can run the project without running build_runner immediately.
 # If you prefer to ignore generated files and run build_runner on CI/CD, uncomment below:
-# *.g.dart
-# *.config.dart
-# *.freezed.dart
+*.g.dart
+*.config.dart
+*.freezed.dart
 
 # ---------------------------------------------------------
 # Android
@@ -102,9 +102,9 @@ app.*.map.json
 # Firebase & Secrets (firebase_core, firebase_messaging)
 # ---------------------------------------------------------
 # Uncomment these if you consider Firebase config files private/secret
-# /android/app/google-services.json
-# /ios/Runner/GoogleService-Info.plist
-# /ios/firebase_app_id_file.json
-# /macos/Runner/GoogleService-Info.plist
-# /macos/firebase_app_id_file.json
-# lib/firebase_options.dart
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+/macos/Runner/GoogleService-Info.plist
+/macos/firebase_app_id_file.json
+lib/firebase_options.dart
