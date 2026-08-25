@@ -1,0 +1,110 @@
+# ---------------------------------------------------------
+# Miscellaneous & OS
+# ---------------------------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+
+# ---------------------------------------------------------
+# IDEs and Editors
+# ---------------------------------------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---------------------------------------------------------
+# Environment Variables (flutter_dotenv)
+# ---------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------
+# Flutter / Dart / Pub
+# ---------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------------------------
+# Code Generation (build_runner, injectable, riverpod, hive)
+# ---------------------------------------------------------
+# Note: Most teams COMMIT generated files (*.g.dart, *.config.dart) so teammates
+# can run the project without running build_runner immediately.
+# If you prefer to ignore generated files and run build_runner on CI/CD, uncomment below:
+# *.g.dart
+# *.config.dart
+# *.freezed.dart
+
+# ---------------------------------------------------------
+# Android
+# ---------------------------------------------------------
+/android/.gradle/
+/android/local.properties
+/android/captures/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystores & Signing keys
+*.keystore
+*.jks
+/android/key.properties
+
+# ---------------------------------------------------------
+# iOS / macOS
+# ---------------------------------------------------------
+**/ios/Flutter/.last_build_id
+/ios/.symlinks/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/.xcode/
+
+# ---------------------------------------------------------
+# Firebase & Secrets (firebase_core, firebase_messaging)
+# ---------------------------------------------------------
+# Uncomment these if you consider Firebase config files private/secret
+# /android/app/google-services.json
+# /ios/Runner/GoogleService-Info.plist
+# /ios/firebase_app_id_file.json
+# /macos/Runner/GoogleService-Info.plist
+# /macos/firebase_app_id_file.json
+# lib/firebase_options.dart
