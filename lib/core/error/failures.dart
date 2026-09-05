@@ -1,5 +1,5 @@
 abstract class Failures {
-  final String message;
+  final String? message;
   const Failures({required this.message});
 }
 

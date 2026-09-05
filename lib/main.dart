@@ -8,7 +8,11 @@ import 'package:mawidak/core/theme/app_theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await dotenv.load(fileName: '.env');
+  try {
+    await dotenv.load(fileName: '.env');
+  } catch (_) {
+    // If .env is missing or cannot be parsed, continue with defaults
+  }
   await configureDependencies();
 
   runApp(const ProviderScope(child: MawidakApp()));
